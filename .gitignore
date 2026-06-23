@@ -1,0 +1,28 @@
+# Large input data and generated outputs
+/data/GSE238140/*
+/data/GSE230571/*
+/data/GSE97919/*
+!/data/README.md
+
+/results/*
+/figures/*
+/tables/*
+/supplementary_tables/*
+/session_info/*
+
+# Keep empty directory placeholders
+!results/.gitkeep
+!figures/.gitkeep
+!tables/.gitkeep
+!supplementary_tables/.gitkeep
+!session_info/.gitkeep
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
